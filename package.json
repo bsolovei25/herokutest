@@ -1,0 +1,22 @@
+{
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "Heroku test example",
+  "main": "script.js",
+  "scripts": {
+    "test": "command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsolovei25/herokutest.git"
+  },
+  "author": "BohdanSolovei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsolovei25/herokutest/issues"
+  },
+  "engines": {
+    "node": "13.11.x"
+  }
+  "homepage": "https://github.com/bsolovei25/herokutest#readme"
+}
