@@ -4,7 +4,7 @@
   "description": "Heroku test example",
   "main": "script.js",
   "scripts": {
-    "test": "command"
+    "start": "node script.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
     "url": "https://github.com/bsolovei25/herokutest/issues"
   },
   "engines": {
-    "node": "13.11.x"
-  }
+    "node": "13.11.x",
+	"npm":"6.13.x"
+  },
   "homepage": "https://github.com/bsolovei25/herokutest#readme"
 }
