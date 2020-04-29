@@ -3,7 +3,8 @@ var http = require('http');
 //var dt = require('./demo_module.js');
 
 //var mysql = require('mysql');
-var express = require("express");
+//var express = require("express");
+var express = require("./node_modules/express/index.js");
 var app = express(); 
 app.use(express.logger());
 var mysql = require('./node_modules/mysql/index.js');
