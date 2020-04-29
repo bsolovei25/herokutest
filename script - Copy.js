@@ -1,6 +1,6 @@
 var PORT = process.env.PORT || 5000;
 var http = require('http');
-//var dt = require('./demo_module.js');
+var dt = require('./demo_module.js');
 
 
 
