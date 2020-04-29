@@ -1,6 +1,6 @@
-var mysql = require('mysql');
+//var mysql = require('mysql');
 var express = require("express");
-//var mysql = require('./node_modules/mysql/index.js');
+var mysql = require('./node_modules/mysql/index.js');
 
 var myvariable;
 
