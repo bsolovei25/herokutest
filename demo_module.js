@@ -37,5 +37,3 @@ con.connect(function(err) {
 exports.MyFunc= function(){
   return myvariable;
 }
-
-
