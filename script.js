@@ -315,7 +315,7 @@ document.getElementById('addNewTodoList').addEventListener('click',function(){
   div8.appendChild(ul1);
 })
 
-window.onload = function(){
+/*window.onload = function(){
   if (JSON.parse(localStorage.getItem('objSave')) != null){
       sessionObj = JSON.parse(localStorage.getItem('objSave'));
   }
@@ -526,7 +526,7 @@ window.onload = function(){
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   `)
 
-})
+})*/
 
 /*http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
