@@ -148,7 +148,7 @@ document.getElementById('addNewTodoList').addEventListener('click',function(){
   });
 
   i1.addEventListener('click',function(event){
-      body.removeChild(event.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement);
+    body.removeChild(event.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement)
   });  
 
   button1.addEventListener('click',function(){
@@ -267,13 +267,13 @@ document.getElementById('addNewTodoList').addEventListener('click',function(){
   lidiv.appendChild(i4);
 
   var ok = true;
-  if (JSON.parse(localStorage.getItem('objSave')) != null && arrofProjects.length == 0){
+  /*if (JSON.parse(localStorage.getItem('objSave')) != null && arrofProjects.length == 0){
       let tmp = JSON.parse(localStorage.getItem('objSave'));
       for (let i =0;i<tmp.length;i++){
           arrofProjects.push(tmp[i]);
       }
       localStorage.clear();
-  }
+    }*/
   for (let i =0;i <arrofProjects.length;i++ )
   {
       if (arrofProjects[i].id == prodobj.id)
@@ -520,13 +520,13 @@ document.getElementById('addNewTodoList').addEventListener('click',function(){
   div6.appendChild(div8);
   div8.appendChild(ul1);
   }   
-};
+};*/
 </script>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   `)
 
-})*/
+})
 
 /*http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
