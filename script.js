@@ -318,6 +318,9 @@ document.getElementById('addNewTodoList').addEventListener('click',function(){
   div6.appendChild(div8);
   div8.appendChild(ul1);
 })
+window.onload = function(){
+alert('!!');
+}
 
 /*window.onload = function(){
   if (JSON.parse(localStorage.getItem('objSave')) != null){
